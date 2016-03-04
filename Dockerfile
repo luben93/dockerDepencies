@@ -66,7 +66,7 @@ ENV PATH /usr/src/phantomjs/bin:$PATH
 
 RUN chmod 777 -R /tmp && chmod o+t -R /tmp
 ENV DOCKER true # for config/database.yml
-
+ 
 #magazinos code
 #RUN mkdir /myapp
 #WORKDIR /myapp
