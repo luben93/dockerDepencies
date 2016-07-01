@@ -55,6 +55,7 @@ RUN mkdir -p "$GEM_HOME" "$BUNDLE_BIN" \
 
 #CMD [ "irb" ]
 
+
 #testing dependecy
 ENV PHANTOMJS_VERSION 2.1.1
 RUN apt-get update -qq && apt-get install -y fontconfig && apt-get clean \
